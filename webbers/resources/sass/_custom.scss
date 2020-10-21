@@ -1,0 +1,321 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-kerning: auto;
+    font-stretch: normal;
+    font-style: normal;
+    font-variant: normal;
+    font-variant-ligatures: normal;
+    font-weight: normal;
+}
+
+p {
+    font-size: 14.5px;
+}
+
+.main-navbar {
+    background: #fff;
+    position: fixed;
+    width: 100%;
+    top: 0;
+    z-index: 99;
+    height: 50px;
+}
+
+.ask-btn {
+    background: #ffff00;
+}
+.ask-btn:hover {
+    color: #85c1e9;
+}
+
+.main-navbar .collapse .form-inline {
+    margin-left: 50px;
+    width: auto;
+}
+.form-inline .search {
+    width: 300px;
+    border: 1px solid #1a5276;
+    outline: none;
+    margin-right: 40px;
+}
+.main-row {
+    position: relative;
+    height: auto;
+    border-radius: 2px;
+    padding: 2px;
+    top: 35px;
+}
+
+.main-navbar .nav-link {
+    color: #000;
+    border: none;
+    margin-top: 3px;
+}
+
+.main-navbar .nav-link:hover {
+    color: #4698b4;
+}
+
+.mini-nav {
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.mini-nav .nav-link {
+    border: 1px solid #ebe9ee;
+    margin: 2px;
+    border-radius: 50px;
+    color: #85929e;
+    background: #fff;
+}
+
+.mini-nav .active {
+    background: #ed72b9;
+    color: #fff;
+    border: none;
+}
+
+.mini-nav .nav-link:hover {
+    background: #ed72b9;
+    border-radius: 50px;
+    color: #fff;
+    border: none;
+}
+
+.verification {
+    margin-top: 2%;
+    padding: 10px;
+}
+
+.google-btn {
+    background: #e92869;
+    border: 1px solid #ebe9ee;
+}
+
+.facebook-btn {
+    background: #7fb3d5;
+}
+
+.login-box {
+    position: relative;
+    width: 780px;
+    height: 590px;
+    border-radius: 2px;
+    padding: 2px;
+    top: 40px;
+}
+
+.verify-box {
+    position: relative;
+    width: 800px;
+    border-radius: 2px;
+    right: 4%;
+    margin-top: 100px;
+    border-left: 4px solid #abebc6;
+}
+
+.verify-box .verify-message {
+    padding: 3px;
+}
+
+.left {
+    position: absolute;
+    top: 0;
+    left: 0;
+    box-sizing: border-box;
+    padding: 20px;
+    margin-top: 40px;
+    right: 20;
+    width: 410px;
+}
+
+.left .signup-btn {
+    background-color: #2980b9;
+    border: none;
+}
+
+h1 {
+    margin: 0 0 20px 0;
+    font-weight: 300;
+    font-size: 28px;
+}
+
+.input-text,
+.input-password {
+    display: block;
+    box-sizing: border-box;
+    padding: 4px;
+    width: 370px;
+    height: 32px;
+    border: none;
+    border-bottom: 1px solid #aaa;
+    font-family: "Open Sans", sans-serif;
+    font-weight: 400;
+    font-size: 15px;
+    transition: 0.2s ease;
+    outline: none;
+    background-color: inherit;
+}
+
+#input-text:focus,
+#input-password:focus {
+    border-bottom: 2px solid #16a085;
+    color: #16a085;
+    transition: 0.2s ease;
+}
+
+.or {
+    position: absolute;
+    top: 180px;
+    left: 410px;
+    width: 40px;
+    height: 40px;
+    background: #ddd;
+    border-radius: 50%;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.4);
+    line-height: 40px;
+    text-align: center;
+}
+
+.right {
+    position: absolute;
+    top: 0;
+    right: 50px;
+    box-sizing: border-box;
+    padding: 40px;
+    width: 300px;
+    height: 517px;
+    background-size: cover;
+    background-position: center;
+    border-radius: 0 2px 2px 0;
+}
+
+.right .social-links {
+    margin-top: 50px;
+}
+
+.social-links .social-signin {
+    margin-bottom: 20px;
+    width: 100%;
+    padding-top: 8px;
+    padding-bottom: 8px;
+    border: none;
+    border-radius: 2px;
+    color: #fff;
+    font-family: "Open Sans", sans-serif;
+    font-weight: 500;
+    transition: 0.2s ease;
+    cursor: pointer;
+}
+
+.social-links .social-signin:hover,
+.social-signin:focus {
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.4);
+    transition: 0.2s ease;
+}
+
+.social-links .social-signin:active {
+    box-shadow: 0 1px 2px rgba(0, 0, 0, 0.4);
+    transition: 0.2s ease;
+}
+
+.social-links .social-signin .facebook {
+    background: #32508e;
+}
+
+.social-links .social-signin .twitter {
+    background: #55acee;
+}
+
+.social-links .social-signin .google {
+    background: #dd4b39;
+}
+
+.tag {
+    font-size: 13px;
+}
+.intro {
+    font-size: 13px;
+}
+
+.question .question-btn {
+    background: #3fbfe9;
+}
+
+.right-col-3-inner {
+    height: auto;
+}
+
+/* Fixed sidenav, full height */
+.sidenav {
+    height: auto;
+    padding-top: 5px;
+}
+
+/* Style the sidenav links and the dropdown button */
+.sidenav a,
+.dropdown-btn {
+    padding: 6px 8px 6px 16px;
+    text-decoration: none;
+    font-size: 15px;
+    color: #000;
+    display: block;
+    border: none;
+    background: none;
+    width: 100%;
+    text-align: left;
+    cursor: pointer;
+    outline: none;
+}
+
+.comment-text p {
+    font-size: 13px;
+}
+
+/* On mouse-over */
+.sidenav a:hover,
+.dropdown-btn:hover {
+    color: #000;
+    border-left: 2px solid #abebc6;
+}
+
+/* Add an active class to the active dropdown button */
+.active {
+    background-color: green;
+    color: white;
+}
+
+/* Dropdown container (hidden by default). Optional: add a lighter background color and some left padding to change the design of the dropdown content */
+.dropdown-container {
+    display: none;
+    background-color: #262626;
+    padding-left: 8px;
+}
+
+/* Optional: Style the caret down icon */
+.fa-caret-down {
+    float: right;
+    padding-right: 8px;
+}
+
+/* Some media queries for responsiveness */
+@media screen and (max-height: 450px) {
+    .sidenav {
+        padding-top: 15px;
+    }
+    .sidenav a {
+        font-size: 18px;
+    }
+}
+
+/* On smaller screens, where height is less than 450px, change the style of the sidebar (less padding and a smaller font size) */
+@media screen and (max-height: 450px) {
+    .sidenav {
+        padding-top: 15px;
+    }
+    .sidenav a {
+        font-size: 18px;
+    }
+}

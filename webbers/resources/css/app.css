@@ -1,0 +1,5 @@
+$bg-color: #ebe9ee;
+
+body {
+    background-color: $bg-color;
+}
